@@ -8,15 +8,15 @@ public class Task3 {
         System.out.println("Введите два числа чеерез пробел");
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        if (a>=b) {
+        if (a >= b) {
             System.out.println("Некоректное значение");
-        } else{
-            int i= a+1;
-            while ( i < b){
-                if (i % 5 == 0 && i % 10 != 0){
-                    System.out.print(i+ " ");
+        } else {
+            int i = a + 1;
+            while (i < b) {
+                if (i % 5 == 0 && i % 10 != 0) {
+                    System.out.print(i + " ");
                 }
-                i=i+1;
+                i = i + 1;
             }
         }
     }
