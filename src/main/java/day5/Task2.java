@@ -8,7 +8,7 @@ package day5;
 public class Task2 {
     public static void main(String[] args) {
         Motorbike motorbike1 = new Motorbike(2018, "красный","Suzuki Kawasaki");
-        System.out.println("У моего коллеги есть " + motorbike1.color + " " + motorbike1.model + " " + motorbike1.getYear() + " года выпускаю");
+        System.out.println("У моего коллеги есть " + motorbike1.getColor() + " " + motorbike1.getModel() + " " + motorbike1.getYear() + " года выпуска.");
 
     }
 
