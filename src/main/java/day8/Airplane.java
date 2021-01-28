@@ -1,11 +1,11 @@
 package day8;
 
 public class Airplane {
-    String producer;
-    int year;
-    int length;
-    int weight;
-    int fuel;
+    private String producer;
+    private int year;
+    private int length;
+    private int weight;
+    private int fuel;
 
     public static void compareAirplanes(Airplane airplane1, Airplane airplane2) {
         if (airplane1.getLength() > airplane2.getLength()) {
