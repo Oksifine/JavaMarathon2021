@@ -9,14 +9,19 @@ package day8;
 public class Task1 {
     public static void main(String[] args) {
         long start1 = System.currentTimeMillis();
+
+        String string = "";
         for (int i = 0; i <= 20000; i++) {
+            String str1 = Integer.toString(i);
             if (i == 20000) {
-                System.out.printf("%d", i);
+                string = string + str1;
             } else {
-                System.out.printf("%d + ", i);
+                string = string + str1 +" + ";
+
             }
+
         }
-        System.out.println();
+        System.out.println(string);
         long finish1 = System.currentTimeMillis();
         long timeConsumedMillis1 = finish1 - start1;
 
